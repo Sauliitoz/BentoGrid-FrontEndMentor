@@ -19,4 +19,5 @@ const Section = styled.section`
 	background: #7551dc;
 	margin: 32px 16px;
 	align-self: stretch;
+	min-width: 343px;
 `;

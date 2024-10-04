@@ -4,9 +4,13 @@ import star from "../../../../src/assets/img/star/Star.svg";
 const Post1 = () => {
 	return (
 		<Section>
-			<H2>
-				Social Media <Span10>10x</Span10> <SpanF>Faster</SpanF> with AI
-			</H2>
+			<Div1>
+				<p> Social Media</p>
+				<p>
+					<Span10>10x</Span10><Span>Faster</Span> with
+				</p>
+				<p>AI</p>
+			</Div1>
 			<Div>
 				<Img src={star} alt="star1" />
 				<Img src={star} alt="star2" />
@@ -15,7 +19,7 @@ const Post1 = () => {
 				<Img src={star} alt="star5" />
 			</Div>
 
-			<P>Over 4,000 5-star reviews</P>
+			<H3>Over 4,000 5-star reviews</H3>
 		</Section>
 	);
 };
@@ -23,21 +27,21 @@ const Post1 = () => {
 const Section = styled.section`
 	text-align: center;
 	line-height: 42px;
-`;
-const SpanF = styled.span`
-	font-style: italic;
-`;
-const H2 = styled.h2`
-	color: #fff;
-	font-size: 46px;
-	width: 279px;
-	height: 126px;
-	margin-bottom: 24px;
-	word-spacing: -5px;
+	
 `;
 const Span10 = styled.span`
 	color: #ffcc6a;
 	font-size: 46px;
+`;
+const Span = styled.span`
+	font-style: italic;
+`;
+const Div1 = styled.div`
+	color: #fff;
+	font-size: 46px;
+	width: 279px;
+	height: auto;
+	margin-bottom: 24px;
 `;
 const Div = styled.div`
 	display: flex;
@@ -50,7 +54,7 @@ const Img = styled.img`
 	height: 32px;
 	margin-bottom: 8px;
 `;
-const P = styled.p`
+const H3 = styled.h3`
 	color: #fff;
 	font-size: 18px;
 	font-weight: 400;

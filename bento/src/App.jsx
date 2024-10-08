@@ -1,10 +1,18 @@
-import { SquareViolet } from "./components/square-violet/square-violet";
-import { SquareWhite } from "./components/Square-white/Square-white";
+import { MainTainConsistent } from "./components/MainTainConsistent/MainTainConsistent";
+import { ManageMultiple } from "./components/ManageMultiple/ManageMultiple";
+import { Schedule } from "./components/Schedule/Schedule";
+import { SocialMedia } from "./components/SocialMedia/SocialMedia";
+
+
+
+
 function App() {
 	return (
 		<>
-			<SquareViolet />
-			<SquareWhite />
+			<SocialMedia />
+			<ManageMultiple />
+			<MainTainConsistent />
+			<Schedule/>
 		</>
 	);
 }

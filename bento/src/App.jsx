@@ -9,12 +9,12 @@ import { SocialMedia } from "./components/SocialMedia/SocialMedia";
 function App() {
 	return (
 		<>
-			{/* <SocialMedia />
+			<SocialMedia />
 			<ManageMultiple />
 			<MainTainConsistent />
 			<Schedule />
 			<GrowFollowers />
-			<FasterAudience /> */}
+			<FasterAudience />
 			<CreatePost />
 		</>
 	);

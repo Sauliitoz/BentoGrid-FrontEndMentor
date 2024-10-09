@@ -24,6 +24,7 @@ const Main = styled.main`
 	border-radius: 10px;
 	background: #dbd1fc;
 	margin: 32px 16px;
+	min-width: 343px;
 `;
 
 const H2 = styled.h2`
@@ -32,7 +33,18 @@ const H2 = styled.h2`
 	line-height: 24px;
 	letter-spacing: -1.56px;
 `;
-const Img = styled.img``;
-const P = styled.p``;
+const Img = styled.img`
+	width: 272px;
+`;
+
+const P = styled.p`
+	color: #121212;
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	max-width: 279px;
+`;
 
 export { Schedule };

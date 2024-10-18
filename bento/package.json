@@ -1,5 +1,5 @@
 {
-	"homepage": "http://{username}.github.io/{repo-name}",
+	
 	"name": "bento",
 	"private": true,
 	"version": "0.1.0",
@@ -9,8 +9,6 @@
 		"build": "vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
 		"react": "^18.3.1",

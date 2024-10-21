@@ -51,6 +51,4 @@ const P = styled.p`
 	padding: 0 35px;
 `;
 
-export { GrowFollowers };
-      
-      
+export default GrowFollowers;

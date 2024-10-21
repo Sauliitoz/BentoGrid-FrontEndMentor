@@ -67,4 +67,4 @@ const Img2 = styled.img`
 	width: 66px;
 `;
 
-export { FasterAudience };
+export default FasterAudience;

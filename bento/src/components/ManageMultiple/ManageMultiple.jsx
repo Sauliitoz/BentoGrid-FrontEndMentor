@@ -101,4 +101,4 @@ const H2 = styled.h3`
 	letter-spacing: -1.56px;
 `;
 
-export { ManageMultiple };
+export default ManageMultiple;

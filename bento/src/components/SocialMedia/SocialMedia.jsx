@@ -7,10 +7,10 @@ const SocialMedia = () => {
 			<Div>
 				<Div1>
 					<p> Social Media</p>
-					<p>
+					<pp>
 						<Span10>10x</Span10>
 						<Span>Faster</Span> with
-					</p>
+					</pp>
 					<p>AI</p>
 				</Div1>
 				<Div2>
@@ -76,4 +76,4 @@ const H3 = styled.h3`
 	line-height: 20px;
 `;
 
-export { SocialMedia };
+export default SocialMedia;

@@ -47,4 +47,4 @@ const P = styled.p`
 	max-width: 279px;
 `;
 
-export { Schedule };
+export default Schedule;

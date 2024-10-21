@@ -5,14 +5,16 @@ import mouse from "../../assets/img/createpost/vetor.svg";
 const CreatePost = () => {
 	return (
 		<Main>
-			<H2>
-				Create and schedule content <Span>quicker.</Span>
-			</H2>
-
 			<Div>
-				<P>Create Post</P>
-				<img src={star} alt="star of 4 points" />
-				<Img1 src={mouse} alt="mouse icon" />
+				<H2>
+					Create and schedule content <Span>quicker.</Span>
+				</H2>
+
+				<Div1>
+					<P>Create Post</P>
+					<img src={star} alt="star of 4 points" />
+					<Img1 src={mouse} alt="mouse icon" />
+				</Div1>
 			</Div>
 		</Main>
 	);
@@ -24,12 +26,12 @@ const Main = styled.main`
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	gap: 24px;
+
 	min-width: 343px;
 	margin: 32px 16px;
 	border-radius: 10px;
-      
 `;
+
 const H2 = styled.h2`
 	font-size: 32px;
 	font-weight: 500;
@@ -47,7 +49,11 @@ const Span = styled.span`
 `;
 
 const Div = styled.div`
-	display: inline-flex;
+	max-width: 370px;
+	margin: 0 auto;
+`;
+const Div1 = styled.div`
+	display: flex;
 	padding: 17px 26px;
 	justify-content: center;
 	align-items: center;
@@ -55,6 +61,8 @@ const Div = styled.div`
 	background-color: #ffcc6a;
 	border-radius: 42px;
 	position: relative;
+	margin-top: 24px;
+	max-width: 190px;
 `;
 const P = styled.p`
 	color: #7551dc;
@@ -68,4 +76,4 @@ const Img1 = styled.img`
 	top: 50px;
 `;
 
-export { CreatePost };
+export default CreatePost;
